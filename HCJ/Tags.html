@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Tags</title>
+    <link rel="stylesheet" href="/HCJ/assets/css/tags.css" />
+    <link rel="stylesheet" href="/HCJ/assets/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="navbar">
+        <nav class="navigation">
+          <a href="/HCJ/">HOME</a>
+          <a href="/HCJ/Tags.html">HTML TAGS</a>
+          <a href="/HCJ/Project.html">OUR HTML PROJECT</a>
+          <a href="/HCJ/Classes.html">HTML CLASSES</a>
+          <a href="/HCJ/Contact.html">CONTACT</a>
+        </nav>
+      </div>
+
+      <div class="tags-content">
+        <h1>HTML Tags</h1>
+        <p>
+          HTML tags are the building blocks of HTML (HyperText Markup Language)
+          documents. They are used to create and structure content on the web.
+          HTML tags are enclosed in angle brackets (< >) and usually come in
+          pairs: an opening tag and a closing tag. The closing tag is similar to
+          the opening tag but includes a forward slash (/) before the tag name.
+        </p>
+      </div>
+
+      <div class="all-tags">
+        <!-- <h1>
+          All HTML Tags
+        </h1> -->
+        <div class="common-tags">
+          <h2>Common HTML Tags</h2>
+          <ul>
+            <li>&lt;html&gt; - Defines the root of an HTML document</li>
+            <li>&lt;head&gt; - Contains meta-information about the document</li>
+            <li>&lt;title&gt; - Sets the title of the document</li>
+            <li>&lt;body&gt; - Contains the content of the document</li>
+            <li>&lt;h1&gt; to &lt;h6&gt; - Define HTML headings</li>
+            <li>&lt;p&gt; - Defines a paragraph</li>
+            <li>&lt;a&gt; - Defines a hyperlink</li>
+            <li>&lt;img&gt; - Embeds an image</li>
+            <li>&lt;div&gt; - Defines a division or section</li>
+            <li>&lt;span&gt; - Defines a section in a document</li>
+            <li>
+              &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; - Define lists (unordered and
+              ordered)
+            </li>
+            <li>
+              &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; - Define tables and table
+              cells
+            </li>
+            <li>&lt;form&gt; - Defines an HTML form for user input</li>
+            <li>&lt;input&gt; - Defines an input field</li>
+            <li>&lt;button&gt; - Defines a clickable button</li>
+          </ul>
+          <hr />
+          <div class="example-tag">
+            <h3>Example of Common Tags:</h3>
+            <pre>
+              &lt;!DOCTYPE html&gt;
+              &lt;html&gt;
+              &lt;head&gt;
+              &lt;title&gt;My First HTML Page&lt;/title&gt;
+              &lt;/head&gt;
+              &lt;body&gt;
+              &lt;h1&gt;Welcome to My Page&lt;/h1&gt;
+              &lt;p&gt;This is a paragraph.&lt;/p&gt;
+              &lt;a href="https://www.example.com"&gt;Visit Example.com&lt;/a&gt;
+              &lt;/body&gt;
+              &lt;/html&gt;
+            </pre>
+          </div>
+        </div>
+
+        <div class="all">
+          <h2>All HTML Tags</h2>
+          <ul>
+            <li>&lt;html&gt;&#128073; Defines the root of an HTML document</li>
+            <li>
+              &lt;head&lt;&#128073; Contains meta-information about the document
+            </li>
+            <li>&lt;title&gt;&#128073; Sets the title of the document</li>
+            <li>&lt;body&gt;&#128073; Contains the content of the document</li>
+            <li>&lt;div&lt;&#128073; Defines a division or section</li>
+            <li>&lt;section&lt;&#128073; Defines a section in a document</li>
+            <li>&lt;span&gt;&#128073; Defines a section in a document</li>
+            <li>&lt;h1&gt; to &lt;h6&gt;&#128073; Define HTML headings</li>
+            <li>&lt;p&gt;&#128073; Defines a paragraph</li>
+            <li>&lt;a&gt;&#128073; Defines a hyperlink</li>
+            <li>&lt;img&gt;&#128073; Embeds an image</li>
+            <li>
+              &lt;ul&gt;, &lt;ol&gt;, &lt;li &#128073; Define lists (unordered
+              and ordered)
+            </li>
+            <li>
+              &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;&#128073; Define tables and
+              table cells
+            </li>
+            <li>&lt;form&gt;&#128073; Defines an HTML form for user input</li>
+            <li>&lt;input&gt;&#128073; Defines an input field</li>
+            <li>&lt;button&gt;&#128073; Defines a clickable button</li>
+          </ul>
+        </div>
+
+        <div class="code">
+          <h2>All HTML Code</h2>
+          <div class="secure">
+            <b>Form</b>
+            <pre id="form">
+            &lt;form action="/submit" method="post"&gt;
+              &lt;label for="name"&gt;Name:&lt;/label&gt;
+              &lt;input type="text" id="name" name="name"&gt;
+              &lt;button type="submit"&gt;Submit&lt;/button&gt;
+            &lt;/form&gt;
+            </pre>
+            <button onclick="formcopy()">Copy</button>
+            <hr />
+            <b >Table</b>
+            <pre id="table">
+            &lt;table&gt;
+              &lt;tr&gt;
+                &lt;th&gt;Name&lt;/th&gt;
+                &lt;th&gt;Age&lt;/th&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Alice&lt;/td&gt;
+                &lt;td&gt;30&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Bob&lt;/td&gt;
+                &lt;td&gt;25&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          </pre
+            >
+            <button onclick="tablecopy()">Copy</button>
+            <hr />
+            <b>List</b>
+            <pre>
+            &lt;ul&gt;
+              &lt;li&gt;Item 1&lt;/li&gt;
+              &lt;li&gt;Item 2&lt;/li&gt;
+              &lt;li&gt;Item 3&lt;/li&gt;
+            &lt;/ul&gt;
+
+            &lt;ol&gt;
+              &lt;li&gt;First&lt;/li&gt;
+              &lt;li&gt;Second&lt;/li&gt;
+              &lt;li&gt;Third&lt;/li&gt;
+            &lt;/ol&gt;
+            </pre>
+            <hr />
+            <b>Image</b>
+            <pre>
+            &lt;img src="image.jpg" alt="Description of image"&gt;
+          </pre
+            >
+            <hr />
+            <b> Hyperlink </b>
+            <pre>
+            &lt;a href="https://www.example.com"&gt;Visit Example.com&lt;/a&gt;
+            </pre>
+            <hr />
+            <b> Heading </b>
+            <pre>
+            &lt;h1&gt;This is a Heading 1&lt;/h1&gt;
+            &lt;h2&gt;This is a Heading 2&lt;/h2&gt;
+            &lt;h3&gt;This is a Heading 3&lt;/h3&gt;
+            &lt;h4&gt;This is a Heading 4&lt;/h4&gt;
+            &lt;h5&gt;This is a Heading 5&lt;/h5&gt;
+            &lt;h6&gt;This is a Heading 6&lt;/h6&gt;
+          </pre
+            >
+            <hr />
+            <b> Paragraph </b>
+            <pre>
+            &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+          </pre
+            >
+            <hr />
+            <b> Division </b>
+            <pre>
+            &lt;div&gt;
+              &lt;p&gt;This is a paragraph inside a div.&lt;/p&gt;
+            &lt;/div&gt;
+            </pre>
+            <hr />
+            <b> Span </b>
+            <pre>
+              &lt;span style="color:blue;"&gt;This text is blue.&lt;/span&gt;
+            </pre>
+            <hr />
+            <b> Section </b>
+            <pre>
+              &lt;section&gt;
+                &lt;h2&gt;Section Title&lt;/h2&gt;
+                &lt;p&gt;This is a paragraph inside a section.&lt;/p&gt;
+              &lt;/section&gt;
+              </pre
+            >
+            <hr />
+            <b> Input Field </b>
+            <pre>
+            &lt;input type="text" id="name" name="name" placeholder="Enter your name"&gt;
+            </pre>
+            <hr />
+            <b> Button </b>
+            <pre>
+              &lt;button type="button"&gt;Click Me!&lt;/button&gt;
+              </pre
+            >
+            <hr />
+            <b> Image Tag </b>
+            <pre>
+                &lt;img src="image.jpg" alt="Description of image"&gt;
+                </pre
+            >
+            <hr />
+            <b> radio Button </b>
+            <pre>
+                  &lt;input type="radio" id="option1" name="options" value="1"&gt;
+                  &lt;label for="option1"&gt;Option 1&lt;/label&gt;
+                  </pre
+            >
+            <hr />
+            <b> Checkbox </b>
+            <pre>
+                    &lt;input type="checkbox" id="subscribe" name="subscribe"&gt;
+                    &lt;label for="subscribe"&gt;Subscribe to newsletter&lt;/label&gt;
+                    </pre
+            >
+            <hr />
+            <b> Textarea </b>
+            <pre>
+                      &lt;textarea id="message" name="message" rows="4" cols="50"&gt;
+                      Enter your message here...
+                      &lt;/textarea&gt;
+          </pre
+            >
+            <hr />
+            <b> Select Dropdown </b>
+            <pre>
+                      &lt;select id="cars" name="cars"&gt;
+                        &lt;option value="volvo"&gt;Volvo&lt;/option&gt;
+                        &lt;option value="saab"&gt;Saab&lt;/option&gt;
+                        &lt;option value="fiat"&gt;Fiat&lt;/option&gt;
+                        &lt;option value="audi"&gt;Audi&lt;/option&gt;
+                      &lt;/select&gt;
+          </pre
+            >
+            <hr />
+            <b> Audio Tag </b>
+            <pre>
+                      &lt;audio controls&gt;
+                        &lt;source src="audiofile.mp3" type="audio/mpeg"&gt;
+                        Your browser does not support the audio element.
+                      &lt;/audio&gt;
+                      </pre
+            >
+            <hr />
+            <b> Video Tag </b>
+            <pre>
+                      &lt;video width="320" height="240" controls&gt;
+                        &lt;source src="videofile.mp4" type="video/mp4"&gt;
+                        Your browser does not support the video tag.
+                      &lt;/video&gt;
+          </pre
+            >
+            <hr />
+            <b> Break Tag </b>
+            <pre>
+                      &lt;br&gt;
+                      </pre
+            >
+            <hr />
+            <b> Horizontal Rule Tag </b>
+            <pre>
+                      &lt;hr&gt;
+                      </pre
+            >
+            <hr />
+            <b> Meta Tag </b>
+            <pre>
+                      &lt;meta charset="UTF-8"&gt;
+                      </pre
+            >
+            <hr />
+            <b> Link Tag </b>
+            <pre>
+                      &lt;link rel="stylesheet" href="styles.css"&gt;
+          </pre
+            >
+            <hr />
+            <b> navbar Tag </b>
+            <pre>
+                      &lt;nav&gt;
+                        &lt;a href="#"&gt;Home&lt;/a&gt;
+                        &lt;a href="#"&gt;About&lt;/a&gt;
+                        &lt;a href="#"&gt;Contact&lt;/a&gt;
+                      &lt;/nav&gt;
+                    </pre
+            >
+            <hr />
+            <b>header</b>
+            <pre>
+                      &lt;header&gt;
+                        &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+                      &lt;/header&gt;
+                    </pre
+            >
+            <hr />
+            <b>footer</b>
+            <pre>
+                      &lt;footer&gt;
+                        &lt;p&gt;© 2024 My Website&lt;/p&gt;
+                      &lt;/footer&gt;
+                    </pre
+            >
+            <hr />
+            <b> slider Tag </b>
+            <pre>
+                      &lt;div class="slider"&gt;
+                        &lt;img src="slide1.jpg" alt="Slide 1"&gt;
+                        &lt;img src="slide2.jpg" alt="Slide 2"&gt;
+                        &lt;img src="slide3.jpg" alt="Slide 3"&gt;
+                      &lt;/div&gt;
+                      </pre
+            >
+            <hr />
+            <b> sidebar </b>
+            <pre>
+                        &lt;aside class="sidebar"&gt;
+                          &lt;h2&gt;Sidebar Title&lt;/h2&gt;
+                          &lt;p&gt;This is some sidebar content.&lt;/p&gt;
+                        &lt;/aside&gt;
+                        </pre
+            >
+            <hr />
+            <b> article Tag </b>
+            <pre>
+                          &lt;article&gt;
+                            &lt;h2&gt;Article Title&lt;/h2&gt;
+                            &lt;p&gt;This is the content of the article.&lt;/p&gt;
+                          &lt;/article&gt;
+                          </pre
+            >
+            <hr />
+            <b> login form </b>
+            <pre>
+                          &lt;form action="/login" method="post"&gt;
+                            &lt;label for="username"&gt;Username:&lt;/label&gt;
+                            &lt;input type="text" id="username" name="username"&gt;
+                            &lt;label for="password"&gt;Password:&lt;/label&gt;
+                            &lt;input type="password" id="password" name="password"&gt;
+                            &lt;button type="submit"&gt;Login&lt;/button&gt;
+                          &lt;/form&gt;
+                          </pre
+            >
+            <hr />
+            <b> registration form </b>
+            <pre>
+                            &lt;form action="/register" method="post"&gt;
+                              &lt;label for="username"&gt;Username:&lt;/label&gt;
+                              &lt;input type="text" id="username" name="username"&gt;
+                              &lt;label for="email"&gt;Email:&lt;/label&gt;
+                              &lt;input type="email" id="email" name="email"&gt;
+                              &lt;label for="password"&gt;Password:&lt;/label&gt;
+                              &lt;input type="password" id="password" name="password"&gt;
+                              &lt;button type="submit"&gt;Register&lt;/button&gt;
+                            &lt;/form&gt;
+                            </pre
+            >
+            <hr />
+            <b> search bar </b>
+            <pre>
+                              &lt;form action="/search" method="get"&gt;
+                                &lt;input type="text" id="search" name="search" placeholder="Search..."&gt;
+                                &lt;button type="submit"&gt;Search&lt;/button&gt;
+                              &lt;/form&gt;
+                              </pre
+            >
+            <hr />
+            <b> forget password form </b>
+            <pre>
+                                &lt;form action="/forgot-password" method="post"&gt;
+                                  &lt;label for="email"&gt;Email:&lt;/label&gt;
+                                  &lt;input type="email" id="email" name="email"&gt;
+                                  &lt;button type="submit"&gt;Reset Password&lt;/button&gt;
+                                &lt;/form&gt;
+                                </pre
+            >
+            <hr />
+            <b> newsletter subscription form </b>
+            <pre>
+                                  &lt;form action="/subscribe" method="post"&gt;
+                                    &lt;label for="email"&gt;Email:&lt;/label&gt;
+                                    &lt;input type="email" id="email" name="email"&gt;
+                                    &lt;button type="submit"&gt;Subscribe&lt;/button&gt;
+                                  &lt;/form&gt;
+          </pre
+            >
+            <hr />
+            <b> comment section form </b>
+            <pre>
+                                  &lt;form action="/comment" method="post"&gt;
+                                    &lt;label for="name"&gt;Name:&lt;/label&gt;
+                                    &lt;input type="text" id="name" name="name"&gt;
+                                    &lt;label for="comment"&gt;Comment:&lt;/label&gt;
+                                    &lt;textarea id="comment" name="comment" rows="4" cols="50"&gt;&lt;/textarea&gt;
+                                    &lt;button type="submit"&gt;Submit Comment&lt;/button&gt;
+                                  &lt;/form&gt;
+                                  </pre
+            >
+            <hr />
+            <b> pagination controls </b>
+            <pre>
+                                  &lt;div class="pagination"&gt;
+                                    &lt;a href="#prev"&gt;Previous&lt;/a&gt;
+                                    &lt;a href="#1"&gt;1&lt;/a&gt;
+                                    &lt;a href="#2"&gt;2&lt;/a&gt;
+                                    &lt;a href="#3"&gt;3&lt;/a&gt;
+                                    &lt;a href="#next"&gt;Next&lt;/a&gt;
+                                  &lt;/div&gt;
+          </pre
+            >
+            <hr />
+            <b> breadcrumb navigation </b>
+            <pre>
+                                  &lt;nav class="breadcrumb"&gt;
+                                    &lt;a href="#home"&gt;Home&lt;/a&gt; &gt;
+                                    &lt;a href="#section"&gt;Section&lt;/a&gt; &gt;
+                                    &lt;a href="#page"&gt;Page&lt;/a&gt;
+                                  &lt;/nav&gt;
+                                  </pre
+            >
+            <hr />
+            <b> modal popup </b>
+            <pre>
+                                  &lt;div id="myModal" class="modal"&gt;
+                                    &lt;div class="modal-content"&gt;
+                                      &lt;span class="close"&gt;&amp;times;&lt;/span&gt;
+                                      &lt;p&gt;This is a modal popup.&lt;/p&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                  </pre
+            >
+            <hr />
+            <b> tooltip </b>
+            <pre>
+                                    &lt;button class="tooltip"&gt;Hover over me
+                                      &lt;span class="tooltiptext"&gt;Tooltip text&lt;/span&gt;
+                                    &lt;/button&gt;
+                                  </pre
+            >
+            <hr />
+            <b> progress bar </b>
+            <pre>
+                                    &lt;progress value="70" max="100"&gt;70%&lt;/progress&gt;
+                                    </pre
+            >
+            <hr />
+            <b> testimonial section </b>
+            <pre>
+                                      &lt;div class="testimonial"&gt;
+                                        &lt;blockquote&gt;"This is the best service ever!"&lt;/blockquote&gt;
+                                        &lt;p&gt;- Happy Customer&lt;/p&gt;
+                                      &lt;/div&gt;
+                                      </pre
+            >
+            <hr />
+            <b> FAQ section </b>
+            <pre>
+                                        &lt;div class="faq"&gt;
+                                          &lt;h2&gt;Frequently Asked Questions&lt;/h2&gt;
+                                          &lt;details&gt;
+                                            &lt;summary&gt;What is HTML?&lt;/summary&gt;
+                                            &lt;p&gt;HTML stands for HyperText Markup Language.&lt;/p&gt;
+                                          &lt;/details&gt;
+                                        &lt;/div&gt;
+                                        </pre
+            >
+            <hr />
+            <b> testimonial slider </b>
+            <pre>
+                                        &lt;div class="testimonial-slider"&gt;
+                                          &lt;div class="slide"&gt;
+                                            &lt;blockquote&gt;"Great product!"&lt;/blockquote&gt;
+                                            &lt;p&gt;- User 1&lt;/p&gt;
+                                          &lt;/div&gt;
+                                          &lt;div class="slide"&gt;
+                                            &lt;blockquote&gt;"Excellent support!"&lt;/blockquote&gt;
+                                            &lt;p&gt;- User 2&lt;/p&gt;
+                                          &lt;/div&gt;
+                                        &lt;/div&gt;
+                                        </pre
+            >
+            <hr />
+            <b> countdown timer </b>
+            <pre>
+                                        &lt;div id="countdown"&gt;00:10:00&lt;/div&gt;
+          </pre
+            >
+            <hr />
+            <b> image gallery </b>
+            <pre>
+                                        &lt;div class="image-gallery"&gt;
+                                          &lt;img src="image1.jpg" alt="Image 1"&gt;
+                                          &lt;img src="image2.jpg" alt="Image 2"&gt;
+                                          &lt;img src="image3.jpg" alt="Image 3"&gt;
+                                        &lt;/div&gt;
+                                        </pre
+            >
+            <hr />
+            <b> card layout </b>
+            <pre>
+                                        &lt;div class="card"&gt;
+                                          &lt;img src="card-image.jpg" alt="Card Image"&gt;
+                                          &lt;h3&gt;Card Title&lt;/h3&gt;
+                                          &lt;p&gt;Card description goes here.&lt;/p&gt;
+                                        &lt;/div&gt;
+                                        </pre
+            >
+            <hr />
+            <b> pricing table </b>
+            <pre>
+                                        &lt;table class="pricing-table"&gt;
+                                          &lt;tr&gt;
+                                            &lt;th&gt;Plan&lt;/th&gt;
+                                            &lt;th&gt;Price&lt;/th&gt;
+                                            &lt;th&gt;Features&lt;/th&gt;
+                                          &lt;/tr&gt;
+                                          &lt;tr&gt;
+                                            &lt;td&gt;Basic&lt;/td&gt;
+                                            &lt;td&gt;$9.99/month&lt;/td&gt;
+                                            &lt;td&gt;Feature 1, Feature 2&lt;/td&gt;
+                                          &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                        </pre
+            >
+            <hr />
+            <b> social media icons </b>
+            <pre>
+                                        &lt;div class="social-media-icons"&gt;
+                                          &lt;a href="#"&gt;&lt;img src="facebook-icon.png" alt="Facebook"&gt;&lt;/a&gt;
+                                          &lt;a href="#"&gt;&lt;img src="twitter-icon.png" alt="Twitter"&gt;&lt;/a&gt;
+                                          &lt;a href="#"&gt;&lt;img src="instagram-icon.png" alt="Instagram"&gt;&lt;/a&gt;
+                                        &lt;/div&gt;
+                                        </pre
+            >
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="purpose">
+          <img src="/HCJ/assets/img/html.png" alt="logo" />
+          <p>Purpose of this website is to teach HTML to beginners</p>
+        </div>
+        <div class="links">
+          <a href="/HCJ/index.html">HOME</a>
+          <br />
+          <a href="/HCJ/Tags.html"> HTML TAGS </a>
+          <br />
+          <a href="/HCJ/Project.html"> OUR HTML PROJECT </a>
+          <br />
+          <a href="/HCJ/Classes.html"> HTML CLASSES </a>
+          <br />
+          <a href="/HCJ/Contact.html"> CONTACT </a>
+        </div>
+        <div class="media">
+          <a href="/youtube.com"
+            ><img src="/HCJ/assets/img/youtube.png" alt="youtube" />
+          </a>
+          <br />
+          &nbsp; &nbsp;
+
+          <a href="/twitter.com">
+            <img src="/HCJ/assets/img/twitter.png" alt="twitter" />
+          </a>
+          <br />
+          &nbsp; &nbsp;
+
+          <a href="/instagram.com">
+            <img src="/HCJ/assets/img/instagram.png" alt="instagram" />
+          </a>
+          <br />
+          &nbsp; &nbsp;
+
+          <a href="/facebook.com"
+            ><img src="/HCJ/assets/img/facebook.png" alt="facebook" />
+          </a>
+        </div>
+        <p class="copy">
+          Design and Developed by Raju / © 2025 All Rights Reserved.
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      function formcopy() {
+        let copyText = document.getElementById("form").innerText;
+        navigator.clipboard.writeText(copyText);
+      }
+      function tablecopy(){
+        let copyText = document.getElementById("table").innerText;
+        navigator.clipboard.writeText(copyText)
+      }
+    </script>
+  </body>
+</html>
