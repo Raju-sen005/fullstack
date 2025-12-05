@@ -4,17 +4,17 @@ function Services() {
   const services = [
     {
       id: 1,
-      title: "Home Repair & Construction Services",
+      title: "Home Repair Services",
       desc: "Fix wiring, switchboards, fans",
       price: "₹199",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg8ZKOX71iFU_eFsq_2T3iyXy7pdwNkdr8_g&s",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGICRuJJUktoC86JEGVmkBEPvWbEghLRHHPQ&s",
     },
     {
       id: 2,
-      title: "Cleaning & Maintenance Services",
+      title: "Cleaning  Services",
       desc: "Leak repair, pipe fitting",
       price: "₹249",
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZvqPhDtrMBdLKzCoh2XvOXe0_zGWtA9aEg&s",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG3clbKku5jqNnVMBaUyMs-ckq0-9H3suVOA&s",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ function Services() {
       price: "₹499",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79XsD_LKRWfh4FKXC6Pc2DphhBwiANoX8Pg&s",
     },
-     {
+    {
       id: 5,
       title: "Home Maintenance & Special Services",
       desc: "Fix wiring, switchboards, fans",
@@ -65,7 +65,7 @@ function Services() {
       <div className="max-w-6xl mx-auto px-4">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
-          Book a Service
+          Book a Service According to Category
         </h2>
 
         {/* Subheading */}
@@ -78,7 +78,7 @@ function Services() {
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-gray-50 p-5 rounded-xl  hover:shadow-sm transition cursor-pointer"
+              className="bg-gray-0 p-5 rounded-xl shadow-sm hover:shadow-sm transition cursor-pointer"
             >
               <img
                 src={service.img}

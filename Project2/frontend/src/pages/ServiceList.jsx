@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Search } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function ServiceList() {
-   const services = [
+  const services = [
     {
       id: 1,
       title: "Electrician",
@@ -60,7 +61,7 @@ function ServiceList() {
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-white p-5 rounded-xl  hover:shadow-lg transition cursor-pointer"
+              className="bg-white p-5 rounded-xl shadow-sm hover:shadow-sm transition cursor-pointer"
             >
               <img
                 src={service.img}
@@ -76,12 +77,14 @@ function ServiceList() {
               </p>
 
               <p className="text-blue-600 font-semibold text-center mt-3 text-lg">
-                Starting at {service.price}
+                ₹ {service.price}
               </p>
 
-              <button className="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg shadow hover:bg-blue-700 transition">
-                Book Now
-              </button>
+              <Link to={`/booking/${service.id}`}>
+                <button className="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg shadow hover:bg-blue-700 transition">
+                  Book Now
+                </button>
+              </Link>
             </div>
           ))}
         </div>

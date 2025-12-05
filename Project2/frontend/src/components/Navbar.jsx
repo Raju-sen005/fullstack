@@ -27,10 +27,28 @@ function Navbar() {
         </nav>
 
         {/* Desktop Login Button */}
-        <div className="hidden md:flex">
-          <button className="text-blue-600 hover:text-blue-700 transition">
+        <div className="hidden md:flex relative">
+          <div
+            className="text-blue-600 hover:text-blue-700 transition cursor-pointer"
+            onMouseEnter={() => setOpen(true)}
+            onMouseLeave={() => setOpen(false)}
+          >
             <FaRegUser className="text-2xl" />
-          </button>
+          </div>
+
+          {/* Dropdown Box */}
+          {open && (
+            <div
+              className="absolute top-4 right-0 mt-3 w-48 bg-white shadow-sm rounded-lg  p-4 z-50"
+              onMouseEnter={() => setOpen(true)}
+              onMouseLeave={() => setOpen(false)}
+            >
+              {/* <h3 className="text-gray-800 font-semibold text-sm mb-2">Welcome</h3> */}
+              <button className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+                Login 
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Mobile Menu Button */}
@@ -46,14 +64,18 @@ function Navbar() {
       {open && (
         <div className="md:hidden bg-white shadow-sm py-4 px-4 border-t">
           <ul className="flex flex-col gap-4 text-gray-700 font-medium">
-            <li className="cursor-pointer hover:text-blue-600">Home</li>
+            <Link to="/">
+              <li className="cursor-pointer hover:text-blue-600">Home</li>
+            </Link>
             <Link to="/services">
               <li className="cursor-pointer hover:text-blue-600">
                 Book a Service
               </li>
             </Link>
           </ul>
-
+          <button className="text-blue-600 hover:text-blue-700 transition absolute top-35 right-6">
+            <FaRegUser className="text-2xl" />
+          </button>
           <button className="mt-4 w-full bg-blue-600 text-white py-2 rounded-lg shadow hover:bg-blue-700">
             Login
           </button>

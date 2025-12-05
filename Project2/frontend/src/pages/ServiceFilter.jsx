@@ -90,6 +90,7 @@ function ServiceFilter() {
                 />
                 Cleaning
               </label>
+              
             </div>
           </div>
 
@@ -130,7 +131,7 @@ function ServiceFilter() {
               {filteredServices.map((service) => (
                 <div
                   key={service.id}
-                  className="bg-white  rounded-lg p-4 shadow-sm hover:shadow-lg transition duration-300"
+                  className="bg-white  rounded-lg p-4 shadow-sm hover:shadow-sm transition duration-300"
                 >
                   <img
                     src={service.img}
